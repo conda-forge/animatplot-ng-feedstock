@@ -1,5 +1,5 @@
 {% set name = "animatplot-ng" %}
-{% set version = "0.4.5" %}
+{% set version = "0.4.6" %}
 
 package:
   name: {{ name|lower }}
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://pypi.org/packages/source/{{ name[0] }}/{{ name }}/{{ name | replace('-', '_') }}-{{ version }}.tar.gz
-  sha256: e9ff50b9abf4d5134b730c742a6066597214a36fe3b5bd9189b9ddac43f1d3da
+  sha256: 28251831fccd97f6e146a801aa836cbf4f5438ace24eb4204a069ab006eb2385
 
 build:
   noarch: python
